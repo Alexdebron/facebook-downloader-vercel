@@ -1,0 +1,14 @@
+{
+  "name": "facebook-downloader-vercel",
+  "version": "1.0.0",
+  "description": "Serverless Facebook downloader using fdownloader.net scraping",
+  "main": "api/fb.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/fb.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
