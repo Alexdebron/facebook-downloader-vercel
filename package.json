@@ -1,14 +1,19 @@
 {
   "name": "facebook-downloader-vercel",
   "version": "1.0.0",
-  "description": "Serverless Facebook downloader using fdownloader.net scraping",
-  "main": "api/fb.js",
+  "description": "Serverless Facebook video downloader using fdownloader.net scraping",
+  "type": "module",
+  "main": "api/facebook.js",
   "scripts": {
-    "dev": "vercel dev",
-    "start": "node api/fb.js"
+    "start": "vercel dev"
   },
   "dependencies": {
-    "axios": "^1.5.0",
+    "axios": "^1.6.7",
     "cheerio": "^1.0.0-rc.12"
-  }
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "author": "Chamod Nimsara",
+  "license": "MIT"
 }
